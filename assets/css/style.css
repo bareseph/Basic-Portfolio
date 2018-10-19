@@ -1,7 +1,22 @@
+html, body {
+    height: calc(100% - 60px);
+    margin: 0;
+}
+
+section {
+    min-height: 100%;
+    margin: 0 auto 5px;
+}
+
+footer,
+.push {
+    height: 50px;
+}
+
 body {
     background-color: rgb(219, 219, 219);
     background-image: url("../images/qbkls.png");
-    margin: auto;
+    margin: 0;
 }
 
 h2 {
@@ -84,18 +99,15 @@ a:hover {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
     background-color: #8e8e8e;
     width: 100%;
     height: 50px;
+    margin-top: -50px;
     line-height: 6;
-    border-style: solid none none none;
-    border-color: #4aaaa5;
-    border-width: 8px;
+    border-top: 8px solid #4aaaa5;
     color: white;
 }
 
@@ -107,7 +119,7 @@ footer {
     float: left;
     padding-right: 10px;
 }
-
+  
 .clearfix::after {
     content: "";
     display: block;
@@ -121,11 +133,30 @@ p {
 .inputs {
     padding: 0 25px;
 }
-
+  
 .input-width {
-    width: 910px;
+    width: 896px;
+    margin: 3px 0 10px 0;
+    padding: 6px 0px 6px 10px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
 }
 
+.input-width::placeholder {
+  color: lightgrey;
+}
+  
 .portfolio-images {
     padding: 0 25px;
+}
+  
+.button {
+    background: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
 }
