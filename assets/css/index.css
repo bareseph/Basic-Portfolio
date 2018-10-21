@@ -1,38 +1,9 @@
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .about {
-    padding: 20px;
-    min-height: 100%;
-    margin: 0 auto -50px;
-  }
-  footer,
-  .push {
-    height: 50px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    font: 16px Sans-Serif;
-  }
-  p {
-    margin: 20px 0 0 0;
-  }
-  footer {
-    background: #42A5F5;
-    color: white;
-    line-height: 50px;
-    padding: 0 20px;
-  }
+.image-me {
+  float: left;
+  padding-right: 10px;
+  height: 50%;
+}
+
+p {
+  padding: 0 25px;
+}
