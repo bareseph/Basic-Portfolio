@@ -25,6 +25,11 @@
     cursor: pointer;
 }
 
+.button:hover {
+    background: #8dd8d4;
+}
+
 .button:active {
     background: #29706d;
 }
+
