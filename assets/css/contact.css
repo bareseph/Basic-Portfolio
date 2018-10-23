@@ -33,3 +33,6 @@
     background: #29706d;
 }
 
+textarea {
+    max-width: 896px;
+}
